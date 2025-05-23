@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Desaturated-Red: hsl(0, 36%, 70%);
+  --Soft-Red: hsl(0, 93%, 68%);
+  --Dark-Grayish-Red: hsl(0, 6%, 24%);
+  --Linear-1: hsl(0, 100%, 98%);
+  opacity: (0, 0%, 100%);
+  --Linear-2: hsl(0, 74%, 74%);
+  opacity: (0, 80%, 86%);
+  --ff-Josefin: "Josefin Sans", sans-serif;
+}
+body {
+font-family: var(--ff-Josefin);
+  background-color: var(--Linear-1);
+}
+.sectiom-1{
+display: flex;
+
+
+}
+
+.section-1-div-1{
+    padding: 1.5rem;
+}
+.section-1-div-1 img{
+    width: 7rem;
+}
+.section-1-div-2 img {
+    width: 100%;
+}
+
+/* Section 2 */
+.section-2{
+padding: 3rem 2rem ;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1{
+    font-size: 45px;
+    width: 60%;
+    font-weight: 300;
+    letter-spacing: 6px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+span{
+    color: var(--Desaturated-Red);
+    font-weight: 300;
+}
+p{
+    /* border: 1px solid green; */
+    text-align: center;
+    line-height: 1.5;
+    color: var(--Desaturated-Red);
+}
+form {
+display: flex;
+margin-top: 1rem;
+position: relative; 
+/* border: 1px solid green; */
+width: 22rem;
+
+}
+form input{
+    width: 90%;
+    padding: 1rem;
+border: 1px var(--Desaturated-Red) solid;
+    border-radius: 2rem;
+    background-color: var(--Linear-1);
+/* border: none; */
+height: 4rem;
+width: 100%;
+
+}
+form button{
+    background-color: var(--Soft-Red);
+    width: 5rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+left: 80%;
+height: 4rem;
+}
+
+form button img{
+    width: 1.25rem;
+    height: 2rem;
+}
