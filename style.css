@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Root variables */
+
 :root {
   --Desaturated-Red: hsl(0, 36%, 70%);
   --Soft-Red: hsl(0, 93%, 68%);
@@ -17,7 +16,7 @@
   --ff-Josefin: "Josefin Sans", sans-serif;
 }
 
-/* Base styles */
+
 body {
   font-family: var(--ff-Josefin);
   background-color: var(--Linear-1);
@@ -28,14 +27,14 @@ body {
   overflow: hidden;
 }
 
-/* Layout container */
+
 .big-section {
   display: flex;
   height: 100vh;
   width: 100%;
 }
 
-/* Left content area */
+
 .body-div {
   flex: 1 1 55%;
   display: flex;
@@ -47,7 +46,7 @@ body {
   height: 100%;
 }
 
-/* Logo area */
+
 .section-1 {
   display: flex;
   flex-direction: column;
@@ -68,7 +67,6 @@ body {
   display: none;
 }
 
-/* Text content */
 .section-2 {
   max-width: 36rem;
   width: 100%;
@@ -97,7 +95,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Email form */
 .form-div {
   width: 100%;
 }
@@ -139,7 +136,7 @@ form button img {
   height: 1.5rem;
 }
 
-/* Right side image */
+
 .desktop-img {
   flex: 0 0 45%;
   height: 100%;
@@ -153,17 +150,16 @@ form button img {
   object-fit: cover;
 }
 
-/* Mobile adjustments */
-#woman-img-1 {
-  display: block;
-  width: 100%;
-}
 
-@media (max-width: 1024px) {
+
 #woman-img-1 {
   display: none;
 }
-.section-1-div-1 img{
+@media (max-width: 1024px) {
+#woman-img-1 {
+  display: block;
+}
+#woman-img-2 {
   display: none;
 }
   body {  
@@ -184,10 +180,6 @@ form button img {
 
   .section-1-div-2 img {
     display: block;
-  }
-
-  #woman-img-2 {
-    display: block; 
   }
 
   .section-2 h1 {
